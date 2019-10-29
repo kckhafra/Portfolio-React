@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    margin:0px;
+}
+
+.background {
+    background: url("https://cdn.pixabay.com/photo/2015/10/11/12/48/chess-982260__340.jpg") no-repeat;
+    background-size: 350px;
+    background-position: center 0%;
+    height: 360px;
+    display: flex;
+    
+ 
+   
+}
+
+
+.nav{
+    
+    background-size: cover;
+    background-color:rgb(114, 206, 223);
+    color: black;
+    height: 40px;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-img{
+    height: 25px;
+}
+
+.my-name{
+    line-height:30px;
+    font-size: 18px;
+    margin-left: 30px;
+    color: rgb(61, 58, 61);
+    
+}
+
+.nav-text{
+    color: rgb(61, 58, 61);
+    border: none;
+    font-family: 'Julius Sans One', sans-serif;
+    }
+
+.right-navlinks{
+    float: right;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+
+
+
+
+
+
+a:hover {
+    cursor: pointer;
+}
+
+.nav-icon:hover {
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.text-container {
+    font-family: 'Lato', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+h1.background-text{
+    line-height: 0px;
+    color: whitesmoke;
+    font-size: 18px;
+    display: inline-block;
+}
+
+p.background-text{
+    line-height: 0px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    /* margin-top: 10px; */
+}
+
+.hiddennav{
+    display: none;
+}
+h2{
+    color: black;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+
+
+.other-navlinks{
+    padding: 8px;
+}
+
+.show {
+      display:initial;
+    }
+
+    @media(min-width: 360px){
+        .background {
+            background: url("https://cdn.pixabay.com/photo/2015/10/11/12/48/chess-982260__340.jpg") no-repeat;
+            background-size: 430px;
+            background-position: center 0%;
+           
+        }
+        .text-container {
+            margin-top: 30px;
+            margin-right: auto;
+            margin-left: auto;
+            
+        }
+        
+        h1.background-text{
+            line-height: 0px;
+            color: whitesmoke;
+            font-size: 20px;
+            display: inline-block;
+            margin-left: 13px;
+        }
+        
+        p.background-text{
+            line-height: 0px;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            margin-left: 13px;
+            /* margin-top: 10px; */
+        }
+    }
+
+    @media(min-width: 430px){
+        .background {
+            background: url("https://cdn.pixabay.com/photo/2015/10/11/12/48/chess-982260__340.jpg") no-repeat;
+            background-size: 500px;
+            background-position: center 0%;
+        }
+        .text-container {
+            margin-top: 30px;
+            margin-right: auto;
+            margin-left: auto;
+            
+        }
+        
+        h1.background-text{
+            line-height: 0px;
+            color: whitesmoke;
+            font-size: 20px;
+            display: inline-block;
+            margin-left: 20px;
+        }
+        
+        p.background-text{
+            line-height: 0px;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            margin-left: 20px;
+            /* margin-top: 10px; */
+        }
+    }
+
+    @media(min-width: 500px){
+        .background {
+            background: url("https://cdn.pixabay.com/photo/2015/10/11/12/48/chess-982260__340.jpg") no-repeat;
+            background-size: 580px;
+            background-position: center 0%;
+            margin-top: 0px;
+            
+        }
+        .text-container {
+            margin-top: 50px;
+            margin-right: auto;
+            margin-left: auto;
+            
+        }
+        
+        h1.background-text{
+            line-height: 0px;
+            color: whitesmoke;
+            font-size: 20px;
+            display: inline-block;
+            margin-left: 30px;
+        }
+        
+        p.background-text{
+            line-height: 0px;
+            color: white;
+            text-align: center;
+            font-size: 16px;
+            margin-left: 30px;
+            /* margin-top: 10px; */
+        }
+        
+    }
+    @media(min-width: 580px){
+        .background {
+            background: url("https://cdn.pixabay.com/photo/2015/10/11/12/48/chess-982260__340.jpg") no-repeat;
+            background-size: 670;
+            background-position: center 0%;
+        }
+        .text-container {
+            margin-top: 80px;
+            margin-right: auto;
+            margin-left: auto;
+            
+        }
+        
+        h1.background-text{
+            line-height: 0px;
+            color: whitesmoke;
+            font-size: 30px;
+            display: inline-block;
+            margin-left: 50px;
+        }
+        
+        p.background-text{
+            line-height: 0px;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            margin-left: 50px;
+            /* margin-top: 10px; */
+        }
+        
+    }
+
+    @media(min-width: 670px){
+        .background {
+            background: url("https://cdn.pixabay.com/photo/2015/10/11/12/48/chess-982260__340.jpg") no-repeat;
+            background-size: cover;
+            background-position: center 80%;
+            height: 360px;
+        }
+        .text-container {
+            margin-top: 80px;
+            
+            
+        }
+        
+        h1.background-text{
+            line-height: 0px;
+            color: whitesmoke;
+            font-size: 30px;
+            display: inline-block;
+            margin-left: 50px;
+        }
+        
+        p.background-text{
+            line-height: 0px;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            margin-left: 50px;
+            /* margin-top: 10px; */
+        }
+        .hiddennav{
+            display: initial;
+        }
+        .menu{
+            display: none;
+        }
+        
+    }
+
+    @media(min-width: 1404px){
+        .background {
+            background: url("https://cdn.pixabay.com/photo/2015/10/11/12/48/chess-982260__340.jpg") no-repeat;
+            background-size: 100% 100%;
+            background-position: center 90%;
+            height: 400px;
+        }
+        .text-container {
+            margin-top: 40px;
+            margin-right: auto;
+            margin-left: auto;
+            
+        }
+        
+        h1.background-text{
+            line-height: 0px;
+            color: whitesmoke;
+            font-size: 40px;
+            display: inline-block;
+            margin-left: 50px;
+        }
+        
+        p.background-text{
+            line-height: 0px;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            margin-left: 50px;
+            /* margin-top: 10px; */
+        }
+        
+    }

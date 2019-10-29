@@ -1,0 +1,40 @@
+.bioimg-container{
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    
+}
+div.bio-container {
+    padding: 10px;
+    text-align: left;
+    margin-top: 50px;
+    max-width: 340px;
+    line-height: 24px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.highlight{
+    font-weight: 400px;
+    color:rgb(53, 141, 156);
+}
+.img-me{
+    max-width: 100px; 
+}
+
+@media (min-width:750px ){
+    div.bio-container{
+        max-width:600px;
+        min-width: 600px;
+        }
+}
+
+@media (min-width:320px ){
+    .img-me{
+        max-width: initial; 
+    }
+}
+       
