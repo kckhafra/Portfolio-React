@@ -18,11 +18,11 @@ export default class PortfolioSection extends React.Component{
                     </div>
                     <div className= " portfolio-container">
                         <h4>Description</h4>
-                        <p className= "portfolio-text"> EcoAcme is a social media platform that promotes holistic health. Users joining EcoAcme become a part of an online community that encourages healthy eating, strength and conditioning and mental stability. This social networking platform allows users to post events, directly message users, view others profiles and add friends.</p>
+                        <p className= "portfolio-text"> EcoAcme is a social media platform that promotes holistic health. Users joining EcoAcme become a part of an online community that encourages healthy eating, mental stability and conditioning. This social networking platform allows users to post events, directly message users, view others profiles and add friends.</p>
                         
                         <h4>Technologies</h4>
                         <p className= "portfolio-text">
-                        This app was created with the following technoligies: Javascript, React.js, HTML, CSS, API Request, Node.js, PostgresSQL, Express and MongoDB. The login was authenticated through JSON Web Token(JWT). Database stored at Heroku
+                        This app was created with the following technologies: Javascript, React.js, HTML, CSS, API Request, Node.js, PostgresSQL and Express . The login was authenticated through JSON Web Token(JWT). Database stored at Heroku
                         </p>
                     </div>
                     
@@ -46,7 +46,7 @@ export default class PortfolioSection extends React.Component{
                         
                         <h4>Technologies</h4>
                         <p className= "portfolio-text">
-                        This app was created with the following technoligies: Javascript, React.js, HTML, CSS, API Request, Node.js, PostgresSQL, Express and MongoDB. The login was authenticated through JSON Web Token(JWT). Database stored at Heroku      </p>
+                        This app was created with the following technologies: Javascript, React.js, HTML, CSS, API Request, Node.js, PostgresSQL and Express. The login was authenticated through JSON Web Token(JWT). Database stored at Heroku      </p>
                     </div>
 
                     <div className="github-container">
@@ -68,7 +68,7 @@ export default class PortfolioSection extends React.Component{
                         
                         <h4>Technologies</h4>
                         <p className= "portfolio-text">
-                        This app was created with the following technoligies: Javascript, jQuery, HTML, CSS, and API request.</p>
+                        This app was created with the following technologies: Javascript, jQuery, HTML, CSS, and API request.</p>
                     </div>
 
                     <div className="github-container">
